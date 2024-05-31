@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>M83</title>
+    <link rel="stylesheet" type="text/css" href="../../css/paginaPrincipal/M83/M83.css">
+    <link rel="icon" type="image/png" href="../../img/paginaPrincipal/M83/Logo_M83.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <header>
+        <!--------------------------------------------REDES SOCIALES-------------------------------------------------------->
+        <ul id="redes">
+            <li><a href="https://twitter.com/M83?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><ion-icon
+                        name="logo-twitter"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com/m83/?locale=es_ES"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/m83music/?hl=es"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+
+        <img id="elLogo" src="../../img/paginaPrincipal/M83/Logo_M83.png" alt="logo" width="175px">
+
+<!--------------------------------------------DESPLEGABLES-------------------------------------------------------->
+        <nav class="nDesplegables">
+            <ul>
+                <li class="desplegables">
+                    <a href="#">Frases</a>
+                    <ul class="listadoDesplegables">
+                        <li><a href="../frase/Frases_Espacio_Exterior.html">FRASES (Hilo)</a></li>
+                        <li><a href="#">Frases </a></li>
+                    </ul>
+                </li>
+                <li class="desplegables">
+                    <a href="#">Escala</a>
+                    <ul class="listadoDesplegables">
+                        <li><a href="../escala/Escala_Agujeros_Negros.html">Escala (Hilo)</a></li>
+                        <li><a href="#">Escala</a></li>
+                    </ul>
+                </li>
+                <li class="desplegables">
+                    <a href="#">Comparativa</a>
+                    <ul class="listadoDesplegables">
+                        <li><a href="../comparativa/comparativaCohetes.html">Comparativa (Hilo)</a></li>
+                        <li><a href="#">Comparativa</a></li>
+                    </ul>
+                </li>
+                <li class="desplegables"></li>
+                <li><a href="../formulario/formularioAventuraEspacial.html">ENTRAR</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--------------------------------------------CARRUSEL-------------------------------------------------------->
+    <section id="carrousell">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="../../img/paginaPrincipal/M83/f1.jpg">
+                <img src="../../img/paginaPrincipal/M83/f2.jpg">
+                <img src="../../img/paginaPrincipal/M83/f3.jpg">
+                <img src="../../img/paginaPrincipal/M83/f4.webp">
+                <img src="../../img/paginaPrincipal/M83/f5.webp">
+                <img src="../../img/paginaPrincipal/M83/f6.jpg">
+                <img src="../../img/paginaPrincipal/M83/f7.jpg">
+                <img src="../../img/paginaPrincipal/M83/f8.jpg">
+                <img src="../../img/paginaPrincipal/M83/f9.jpg">
+                <img src="../../img/paginaPrincipal/M83/f10.jpg">
+                <img src="../../img/paginaPrincipal/M83/f11.webp">
+                <img src="../../img/paginaPrincipal/M83/f12.jpg">
+                <img src="../../img/paginaPrincipal/M83/f13.jpg">
+                <img src="../../img/paginaPrincipal/M83/f14.jpg">
+                <img src="../../img/paginaPrincipal/M83/f15.webp">
+                <img src="../../img/paginaPrincipal/M83/f16.jpg">
+                <img src="../../img/paginaPrincipal/M83/f17.jpg">
+                <img src="../../img/paginaPrincipal/M83/f18.jpg">
+            </div>
+            <button class="bIzq" onclick="changeSlide(-1)">
+                <ion-icon name="chevron-back-circle-outline"></ion-icon>
+            </button>
+
+            <button class="bDer" onclick="changeSlide(1)">
+                <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+            </button>
+
+        </div>
+    </section>
+<!--------------------------------------------COLUMNA DERECHA-------------------------------------------------------->
+    <section class="columnaIFrame">
+
+        <div class=Suscripcion>
+            <i>
+                <h2>NEWSLETTER</h2>
+            </i><br><br>
+            <input class="DelInput" type="email" id="email" name="email" placeholder="Ingresa tu  correo"></input>
+
+            <p>Al pulsar registrar, estás de acuerdo y confirmas que has leído:
+                <br>
+                <a href="#">Términos y Condiciones</a>
+            </p>
+            <br>
+            <a class="Boton" href="../formulario/formularioAventuraEspacial.html">Registrar</a>
+        </div>
+
+        <iframe src="../escala/Escala_Agujeros_Negros.html" width="380" height="800"></iframe>
+
+    </section>
+
+<!--------------------------------------------COLUMNA IZQUIERDA-------------------------------------------------------->
+    <section class="columnaAnuncio">
+
+        <div id="anuncio">
+            <a href="#" onclick="cambio()"></a>
+        </div>
+
+        <iframe id="_1" src="https://www.youtube.com/embed/yAr1JDymqHs?si=DJc2903ZMrprs7G4" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+
+        <div class="musiquita">
+            <h3>OTRAS CANCIONES</h3>
+            <audio controls>
+                <source src="../../musica/paginaPrincipal/m83/m83-midnight-city-lyrics-128-ytshorts.savetube.me.mp3"
+                    id="m1" type="audio/mp3">
+                <source
+                    src="../../musica/paginaPrincipal/m83/m83-intro-feat-zola-jesus-audio-128-ytshorts.savetube.me.mp3"
+                    id="m1" type="audio/mp3">
+            </audio>
+            <BR><BR>
+            <audio controls>
+                <source
+                    src="../../musica/paginaPrincipal/m83/m83-intro-feat-zola-jesus-audio-128-ytshorts.savetube.me.mp3"
+                    id="m1" type="audio/mp3">
+            </audio>
+        </div>
+
+    </section>
+
+    <!--------------------------------------------TEXTO PRINCIPAL-------------------------------------------------------->
+    <article class="scroll-t" id="textoPrincipal">
+        <pre>
+
+            M83 es una banda francesa de música electrónica
+            formada en 2001 por Anthony Gonzalez y
+            Nicolas Fromageau. Inspirados por el shoegaze y
+            la música electrónica de los 80,
+            crearon un sonido único.
+            
+            Su álbum debut, "M83" (2001), estableció su 
+            estilo etéreo y emocional.
+            La banda encontró el éxito con su álbum 
+            "Dead Cities, Red Seas & Lost Ghosts" (2003),
+            que fusionó sonidos ambientales 
+            con elementos de rock.
+            
+            Después de la partida de Fromageau, Gonzalez
+            continuó como líder de M83 y lanzó 
+            "Before the Dawn Heals Us" (2005), explorando
+            atmósferas expansivas.
+            
+            El álbum que realmente los catapultó fue 
+            "Saturdays = Youth" (2008),
+            una oda nostálgica a la adolescencia. 
+            Canciones como "Midnight City" se
+            convirtieron en himnos modernos.
+            
+            El álbum fue un punto de inflexión, 
+            llevando a M83 a la corriente principal. 
+            Con "Hurry Up, We're Dreaming" (2011), 
+            M83 consolidó su estatus global.
+            
+            La canción "Midnight City" se convirtió 
+            en un fenómeno viral. Su música
+            era una mezcla de sintetizadores 
+            caleidoscópicos y letras evocadoras.
+            
+            Gonzalez, conocido por su enfoque meticuloso en
+            la producción, creó paisajes sonoros cinematográficos
+            en álbumes posteriores como "Junk" (2016) y 
+            "DSVII" (2019).
+            
+            M83 se ha presentado en festivales de todo el mundo,
+            cautivando audiencias con su energía y
+            espectáculo visual. La música de M83 es única.
+            
+            Una invitación a lo onírico 
+            y lo emotivo, un viaje sonoro.
+            Con cada álbum, evolucionan manteniendo su 
+            esencia explorando nuevos territorios.
+            M83 sigue siendo un faro en la 
+            escena musical electrónica.
+
+    </pre>
+    </article>
+
+<!--------------------------------------------CONTADOR-------------------------------------------------------->
+    <div id="sfcudgyl84kn6p6e2c2trlm995dfh75jf2r"></div>
+    <script type="text/javascript"
+        src="https://counter4.optistats.ovh/private/counter.js?c=udgyl84kn6p6e2c2trlm995dfh75jf2r&down=async"
+        async></script>
+
+<!--------------------------------------------FOOTER-------------------------------------------------------->
+    <footer>
+        <P>HECHO POR HILO</P>
+    </footer>
+
+    <script src='../../js/paginaPrincipal/M83/M83.js'></script>
+</body>
+
+</html>

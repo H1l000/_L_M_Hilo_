@@ -1,0 +1,230 @@
+
+body {
+    background: linear-gradient(to bottom, #222, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  h1 {
+    font-family: Verdana;
+  }
+  
+  
+  .miDiv1, .miDiv2, .miDiv3, .miDiv4, .miDiv5, .miDiv6, .miDiv7, .miDiv8, .miDiv9 {
+    border: 6px outset blue;
+    text-align: center;
+  }
+  
+  
+  .miDiv1 {
+    background-color: rgb(226, 226, 226);
+  }
+  
+  .bujero {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujero 1s forwards;
+  }
+  
+  @keyframes bujero {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 47.91%;
+    }
+  }
+  
+  
+  .miDiv2 {
+    background-color: rgb(198, 198, 198);
+  }
+  
+  .bujerito {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujerito 1s forwards;
+  }
+  
+  @keyframes bujerito {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 49.14%;
+    }
+  }
+  
+  
+  /* .miDiv3 */
+  .miDiv3 {
+    background-color: rgb(170, 170, 170);
+  }
+  
+  .bujeritillo {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo 1s forwards;
+  }
+  
+  @keyframes bujeritillo {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 51.60%;
+    }
+  }
+  
+  
+  /* .miDiv4 */
+  .miDiv4 {
+    background-color: rgb(141, 141, 141);
+  }
+  
+  .bujeritillo1 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo1 1s forwards;
+  }
+  
+  @keyframes bujeritillo1 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 56.51%;
+    }
+  }
+  
+  
+  
+  /* .miDiv5 */
+  .miDiv5 {
+    background-color: rgb(113, 113, 113);
+  }
+  
+  .bujeritillo5 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo5 1s forwards;
+  }
+  
+  @keyframes bujeritillo5 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 73.71%;
+    }
+  }
+  
+  
+  
+  /* .miDiv6 */
+  .miDiv6 {
+    background-color: rgb(85, 85, 85);
+  }
+  
+  .bujeritillo6 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo6 1s forwards;
+  }
+  
+  @keyframes bujeritillo6 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 81.33%;
+    }
+  }
+  
+  
+  
+  /* .miDiv7 */
+  .miDiv7 {
+    background-color: rgb(56, 56, 56);
+  }
+  
+  .bujeritillo7 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo7 1s forwards;
+  }
+  
+  @keyframes bujeritillo7 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 83.54%;
+    }
+  }
+  
+  
+  
+  /* .miDiv8 */
+  .miDiv8 {
+    background-color: rgb(28, 28, 28);
+  }
+  
+  .bujeritillo8 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo8 1s forwards;
+  }
+  
+  @keyframes bujeritillo8 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 98.28%;
+    }
+  }
+  
+  
+  
+  /* .miDiv9 */
+  .miDiv9 {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .bujeritillo9 {
+    width: 100%;
+    border-radius: 25px;
+    background: linear-gradient(450deg, rgb(171, 238, 255), rgb(0, 25, 109));
+    animation: bujeritillo9 1s forwards;
+  }
+  
+  @keyframes bujeritillo9 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  #masipilla9, #masipilla8, #masipilla7, #masipilla6, #masipilla5, #masipilla1, #masipilla, #masilla, #masita {
+    color: #82f517d8;
+    font-weight: bold;
+  }
+  
+  
+    .miDiv1 h3, .miDiv2 h3, .miDiv3 h3, .miDiv4 h3, .miDiv5 h3, .miDiv6 h3, .miDiv7 h3, .miDiv8 h3, .miDiv9 h3 {
+      color: rgb(17, 211, 85);
+    }
+  

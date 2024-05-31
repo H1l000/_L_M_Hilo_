@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* PARA EL FONDO: */
+body{
+    background-image: url('../../img/formulario/miFondoMonta.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+}
+
+/* PARA EL FOOTER: */
+footer {
+    background-color: #333;
+    color: #5570ea;
+    padding: 5px;
+    text-align: center;
+    margin-top: 35vh; /* Simplemente 35 porque a partir de 30 ya se queda siempre abajo */
+  }
+  
+
+/* CARACTERÍSTICAS PRINCIPALES DEL FORMULARIO: */
+.elRegistro {
+    width: 400px;
+    background: #2d6409;
+    padding: 30px;
+    margin: auto; /* ---> Para tenerlo siempre centrado */
+    margin-top: 225px;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color:aliceblue;
+    box-shadow: 7px 13px 37px #000;
+}
+
+/* CARACTERÍSTICAS ADICIONALES DEL FORMULARIO: */
+.elRegistro h4  {
+         
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.elRegistro p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.elRegistro .elBoton{
+    width: 100%;
+    background: #1899f5;
+    padding: 15px;
+    color:whitesmoke;
+    margin-top: 18px;
+    font-size: 15px;
+    cursor: pointer; /* Para cambiar el cursor al pasar */
+}
+
+.elRegistro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.metodos-pago {
+    margin-left: 67px;
+}
+
+/* PARA LOS REQUISITOS DEL FORMULARIO: */
+.paraColores {
+    width: 100%;
+    background: #2d6409;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(200, 255, 20); /* PARA EL BORDE DE LOS REQUISITOS*/
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}

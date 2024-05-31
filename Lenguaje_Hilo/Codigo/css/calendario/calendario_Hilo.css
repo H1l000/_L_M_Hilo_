@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+}
+/* --------------- CUERPO, LA CAJA  --------------- */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #291a7e;
+    font-family: letrasChulas;
+    background-image: url(../../img/calendario/calendario_Hilo/fondoEspacial.jpg);
+}
+
+.wrapper {
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px 2px ;
+    background: #7a327c;
+    border-radius: 52px;
+}
+
+.wrapper:hover{
+    transform: scale(1.12);
+    transition: 0.7s;
+}
+
+/* --------------- PARA EL TITULO, MES, AÑO  --------------- */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 5px;
+    justify-content: space-between;
+}
+
+header .laFecha {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    flex: 1; /* Esto hace que laFecha ocupe todo el espacio disponible y se me ponga en medio porque solo con el text-align no quedaba bien */
+}
+
+/* --------------- ICONOS --------------- */
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1bb6;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+/* Tuve que poner esto porque los al avanzar en los meses se seleccionaban cosas como si les pasara el ratón: */
+.icons ion-icon {
+    user-select: none; 
+}
+
+/* --------------- CALENDARIO Y LOS DÍAS DEL CALENDARIO  --------------- */
+
+.calendar {
+    padding: 25px;
+   
+}
+
+.calendar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+.calendar .days li {
+    cursor: pointer;
+    z-index: 2;
+    margin-top: 20px;
+    
+}
+
+.calendar .days {
+    margin-bottom: 20px;
+}
+
+/* Muy importante: */
+.calendar ul li {
+    position: relative;
+    width: calc(100% / 7);
+}
+
+.days li.inactivo {
+    color: #aaa;
+}
+
+.days li.active {
+    color: #ffffff;
+}
+
+.calendar .days li::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 15%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* --------------- COLORES DE TODOS LOS HOVERS  --------------- */
+
+.days li:hover::before {
+    background: #ffffff;
+}
+
+.days li.active::before {
+    background: #220049;
+}
+
+.days li.fecha-especial::before {
+    background: rgb(237, 241, 12);
+}
+
+.days li.fecha-especial {
+    color: rgb(192, 8, 152);
+}
+
+/* --------------- FOOTER  --------------- */
+
+footer {
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* --------------- TOOLTIP PARA LA FECHA ESPECIAL  --------------- */
+
+.fecha-especial::after {
+    content: attr(data-tooltip); /* Nunca lo había visto, busqué algo así y encontré esto en w3schools https://www.w3schools.com/css/css_tooltip.asp */
+    position: absolute; 
+    bottom: 100%; /* Para que esté arriba */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.fecha-especial:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* --------------- FUENTES  --------------- */
+
+@font-face {
+    font-family: letrasChulas;
+    src: url(../../font/calendario/calendario_Hilo/Anton-Regular.ttf);
+}

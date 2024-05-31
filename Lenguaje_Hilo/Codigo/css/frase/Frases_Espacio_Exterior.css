@@ -1,0 +1,112 @@
+body {
+  background-color: #0f1a36;
+  color: #43ea21;
+  font-family: 'Arial', sans-serif;
+
+}
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* ID's */
+#imagen11 img {
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+#imagen22 img {
+  width: 55%;
+  height: auto;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin-left: 100px;
+
+}
+
+/* Clases */
+.descripcion {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #2e9a3d;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.frase1 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(221, 87, 10);
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+
+.frase1::before,
+.frase1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.frase1::before {
+  border-top: 5px dotted rgb(96, 66, 232);
+  border-bottom: 5px dotted rgb(238, 49, 16);
+}
+
+.frase1::after {
+
+  border-right: 5px dashed rgb(238, 255, 0);
+  border-left: 5px dashed blue;
+  top: 0;
+  bottom: 0;
+}
+
+.frase2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #0a3683;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+
+.frase2::before,
+.frase2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.frase2::before {
+  border-top: 5px dotted rgba(30, 255, 0);
+  border-bottom: 5px dotted black;
+}
+
+.frase2::after {
+
+  border-right: 5px dashed blue;
+  border-left: 5px solid yellow;
+  top: 0;
+  bottom: 0;
+}

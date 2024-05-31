@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../../css/formulario/formularioAventuraEspacial.css">
+</head>
+<body>
+    <section class="elRegistro">
+<h4>FORMULARIO</h4>
+        <input class="paraColores" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+        <input class="paraColores" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos">
+        <input class="paraColores" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
+        <input class="paraColores" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una contraseña">
+        <input class="paraColores" type="number" name="Código Postal" id="Código Postal" placeholder="Ingrese su código postal">
+        <input class="paraColores" type="text" name="Dirección" id="Dirección" placeholder="Ingrese su dirección">
+        <input class="paraColores" type="number" name="Teléfono" id="Teléfono" placeholder="Ingrese su teléfono">
+        <label>Fecha de nacimiento:</label><br><input class="paraColores" type="date" name ="fecNac"><br><br>
+            
+        <div >
+            <input type="checkbox">
+            <label>Acepto el uso de cookies</label>
+        </div>
+        <br>
+        <h6>Método de pago:</h6>
+        <div class="metodos-pago">
+            <label for="visa">
+                <input type="radio" id="visa" name="metodo-pago" value="visa">
+                VISA
+            </label>
+            <label for="mastercard">
+                <input type="radio" id="mastercard" name="metodo-pago" value="mastercard">
+                Mastercard 
+            </label>
+            <label for="paypal">
+                <input type="radio" id="paypal" name="metodo-pago" value="paypal">
+                Paypal
+            </label>
+        </div> <br>
+
+        <p>Al pulsar registrar, estás de acuerdo y confirmas que has leído: 
+            <br>
+             <a href="#">Términos y Condiciones</a>
+        </p>     
+            <br><br><br>
+             <input class="elBoton" type="submit" value="Registrar">
+        
+    </section>
+
+    <footer>
+        <P>HECHO POR HILO</P>
+    </footer>
+    
+</body>
+</html>
